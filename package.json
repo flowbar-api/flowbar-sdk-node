@@ -1,0 +1,30 @@
+{
+  "name": "flowbarai",
+  "version": "1.0.0",
+  "description": "Official Node.js SDK for FlowBar AI — one API key for 50+ frontier AI models. OpenAI-compatible.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "flowbar", "ai", "api", "sdk", "openai-compatible",
+    "gpt", "claude", "gemini", "deepseek", "qwen",
+    "llm", "chatgpt", "language-model"
+  ],
+  "author": "FlowBar AI <hi@flowbarai.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flowbar-api/flowbar-sdk-node"
+  },
+  "homepage": "https://flowbarai.com",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}
